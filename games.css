@@ -38,11 +38,6 @@ nav {
     align-content: space-around;
 }
 
-h1 {
-    font-style: bold;
-    font-size: 50px;
-    text-align: center;
-}
 h2 {
     font-size: 40px;
     text-align: center;
@@ -54,20 +49,6 @@ h3{
     font-style: bold;
     text-align: center;
 }
-
-#canvas {
-    background: url('https://marclopezavila.github.io/planet-defense-game/img/space.jpg') no-repeat;
-    width: 80%;
-    height: 80%;
-
-    background-size: cover;
-}
-
-#canvas.playing {
-    cursor: url('https://marclopezavila.github.io/planet-defense-game/img/aim_red.png') 17.5 17.5,auto !important;
-}
-
-<img id="touchCursor" src="https://marclopezavila.github.io/planet-defense-game/img/aim_red.png" alt="touch cursor" style="display: none; position: absolute; pointer-events: none; z-index: 1000; width: 35px; height: 35px;">
 
  
 ul{
@@ -148,6 +129,5 @@ ul{
         a:hover::after {
             width: 100%;
         }
-        
-   
-   
+
+       
