@@ -42,6 +42,10 @@ function game() {
     canvas.addEventListener('mousemove', action);
     window.addEventListener("resize", update);
 
+    canvas.addEventListener('touchstart', action);
+canvas.addEventListener('touchmove', move);
+
+
     function update() {
         cH = ctx.canvas.height = window.innerHeight;
         cW = ctx.canvas.width  = window.innerWidth ;
